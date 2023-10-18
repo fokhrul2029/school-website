@@ -35,6 +35,9 @@ img {
   color: #0000008f;
   font-weight: 500;
 }
+.active {
+  color: crimson;
+}
 /* ******** Heading CSS start ******  */
 
 .header {
