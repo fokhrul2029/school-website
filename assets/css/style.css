@@ -101,7 +101,7 @@ img {
 /* ****** Course CSS Start ********** */
 .courseSection {
   text-align: center;
-  margin: 50px 0;
+  padding: 141px 0;
 }
 .courseSection .row {
   display: flex;
@@ -138,7 +138,7 @@ img {
 /* Course CSS End  */
 /* ********* Campus CSS start ******** */
 .campusSection {
-  margin: 50px 0;
+  padding: 69px 0;
   text-align: center;
 }
 .campusSection .row {
@@ -222,7 +222,7 @@ img {
 }
 /* ********* Testimonial CSS Start ******** */
 .testimonialSection {
-  padding: 50px 0;
+  padding: 79px 0;
   text-align: center;
 }
 .testimonialSection .row {
@@ -261,7 +261,7 @@ img {
 /* Testimonial CSS End  */
 /* *********** CTA CSS Start ************ */
 .ctaSection {
-  padding: 50px 0;
+  padding: 120px 0;
 }
 .ctaSection .container {
   background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
