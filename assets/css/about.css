@@ -1,0 +1,40 @@
+/* ********** Hero CSS Start *********** */
+.about-page {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+    url(../img/background\ for\ about\ page.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-page h1 {
+  padding: 149px 0;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+/* Hero CSS End */
+/*  ********** About CSS Start ************ */
+.aboutSection {
+  padding: 157px 0;
+}
+.aboutSection .row {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.aboutSection .about-col {
+  flex-basis: 47%;
+}
+.aboutSection h1 {
+  font-size: 35px;
+}
+.aboutSection p {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #000000ad;
+}
+.aboutSection a {
+  color: crimson;
+  font-weight: 600;
+}

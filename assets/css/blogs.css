@@ -1,0 +1,85 @@
+/* ********** Hero CSS Start *********** */
+.blogs-page {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+    url(../img/background\ for\ about\ page.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blogs-page h1 {
+  padding: 149px 0;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+/* Hero CSS End */
+/* *************** Blogs CSS Start *************** */
+.blogsSection {
+  padding: 100px 0;
+}
+.blogsSection .row {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.blogsSection .blogs-col {
+  flex-basis: 65%;
+}
+.blogsSection h1 {
+  font-size: 25px;
+  padding: 25px 0;
+}
+.blogsSection p {
+  font-size: 20px;
+  color: #00000085;
+  padding-bottom: 16px;
+}
+.comment-box {
+  border: 1px solid rgba(0, 0, 0, 0.226);
+  padding: 20px 29px;
+}
+.comment-box strong {
+  font-size: 18px;
+}
+.comment-box input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 20px 15px;
+  margin: 15px 0;
+  outline: none;
+  border: none;
+  background: #00000017;
+  font-size: 16px;
+}
+.comment-box button {
+  color: crimson;
+  background-color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+.blogs-col2 {
+  flex-basis: 30%;
+}
+.blogs-col2 h3 {
+  background-color: crimson;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+  margin-bottom: 37px;
+}
+.blogs-col2 ul {
+  list-style: none;
+}
+.blogs-col2 ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 26px;
+  padding: 0 12px;
+  color: #00000082;
+  font-size: 17px;
+  font-weight: 600;
+}
+/* Blogs CSS end  */

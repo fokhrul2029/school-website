@@ -1,0 +1,314 @@
+/* 
+    //    Import Google Font / font-family 
+    //    font-family: 'Poppins', sans-serif; 
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+/*  Replesment CSS ----------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: green;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.heading-title {
+  font-size: 42px;
+}
+.heading-pera {
+  font-size: 20px;
+  color: #0000008f;
+  font-weight: 500;
+}
+/* ******** Heading CSS start ******  */
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(#00000085, #000000b8),
+    url(../img/university-image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+.navigation .logo {
+  width: 150px;
+}
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 13px;
+}
+.navigation ul li a {
+  color: white;
+  transition: 0.2s ease-in;
+}
+.navigation ul li a:hover {
+  color: crimson;
+}
+/* Textbox CSS */
+.header .textbox {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 80%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+}
+.header p {
+  color: #ffffffcc;
+}
+.hero-button {
+  border: 1px solid crimson;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: white;
+  transition: 0.2s ease-in;
+  font-size: 18px;
+}
+.hero-button:hover {
+  background-color: crimson;
+  color: white;
+}
+/* Heading CSS end  */
+/* ****** Course CSS Start ********** */
+.courseSection {
+  text-align: center;
+  margin: 50px 0;
+}
+.courseSection .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.courseSection .course-col {
+  flex-basis: 32%;
+  border: 1px solid transparent;
+  padding: 30px 21px;
+  background-color: #fff3f3;
+  border-radius: 10px;
+  transition: 0.3s ease-in;
+  margin: 30px 0;
+  cursor: pointer;
+}
+.courseSection h3 {
+  font-size: 23px;
+  margin-bottom: 16px;
+  margin-top: 14px;
+}
+.courseSection p {
+  font-size: 18px;
+  color: #00000094;
+}
+.courseSection .course-col:hover {
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+}
+@media (max-width: 860px) {
+  .row {
+    flex-direction: column;
+  }
+}
+/* Course CSS End  */
+/* ********* Campus CSS start ******** */
+.campusSection {
+  margin: 50px 0;
+  text-align: center;
+}
+.campusSection .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin: 30px 0 0 0;
+}
+.campusSection .campus-col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 20px;
+}
+.campusSection img {
+  width: 100%;
+  display: block;
+}
+.campusSection .layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  transition: 0.2s ease-in;
+}
+.campusSection .layer:hover {
+  background-color: rgba(255, 99, 71, 0.247);
+}
+.campusSection h2 {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+.campusSection .layer:hover h2 {
+  opacity: 1;
+  bottom: 50%;
+}
+/* Campus CSS end   */
+/* *********** Facilities CSS Start *********** */
+.facilitySection {
+  margin: 121px 0;
+  text-align: center;
+}
+.facilitySection .row {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 20px;
+  margin-top: 30px;
+}
+.facilitySection .facility-col {
+  flex-basis: 32%;
+  padding: 14px 30px;
+  text-align: left;
+}
+.facilitySection img {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+.facilitySection img:hover {
+  transform: scale(0.9);
+}
+.facilitySection h2 {
+  font-size: 27px;
+  color: #000000d6;
+}
+.facilitySection p {
+  font-size: 20px;
+  color: #0000008f;
+  font-weight: 500;
+}
+/* ********* Testimonial CSS Start ******** */
+.testimonialSection {
+  padding: 50px 0;
+  text-align: center;
+}
+.testimonialSection .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  text-align: left;
+  padding: 50px 0;
+}
+.testimonialSection .testimonial-col {
+  display: flex;
+  align-items: start;
+  background-color: #bc8f8f52;
+  gap: 10px;
+  padding: 32px 25px;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.testimonialSection img {
+  width: 60px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+.testimonial-col p {
+  color: #000000a6;
+  font-size: 17px;
+}
+.testimonial-col h3 {
+  color: #000000;
+  font-size: 23px;
+}
+.testimonialSection i {
+  color: crimson;
+}
+/* Testimonial CSS End  */
+/* *********** CTA CSS Start ************ */
+.ctaSection {
+  padding: 50px 0;
+}
+.ctaSection .container {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+    url(../img/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 99px 0;
+  color: white;
+}
+.ctaSection h1 {
+  line-height: 70px;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+@media (max-width: 792px) {
+  .ctaSection h1 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+}
+/* CTA CSS End  */
+/* ************* Footer CSS Start *********** */
+.footer {
+  text-align: center;
+  padding: 76px 0;
+}
+.footer h1 {
+  font-size: 35px;
+  padding: 20px 0;
+}
+.footer p {
+  font-size: 20px;
+  padding: 37px 0;
+  color: #000000a8;
+}
+.footer i {
+  font-size: 20px;
+  background: crimson;
+  color: white;
+  padding: 5px 6px;
+  border-radius: 4px;
+  margin: 0 4px;
+  cursor: pointer;
+}
+/* Footer CSS End  */
