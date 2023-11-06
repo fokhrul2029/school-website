@@ -315,4 +315,14 @@ img {
   margin: 0 4px;
   cursor: pointer;
 }
+.footer a {
+  color: rgba(220, 20, 60, 0.767);
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  transition: .2s ease;
+}
+.footer a:hover {
+  color: crimson ;
+}
 /* Footer CSS End  */
